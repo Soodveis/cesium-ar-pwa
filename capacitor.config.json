@@ -1,0 +1,6 @@
+{
+  "appId": "com.example.cesiumar",
+  "appName": "cesium-ar-app",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

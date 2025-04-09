@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cesium + AR Viewer</title>
+    <script type="module" src="/main.js"></script>
+    <link href="/cesium/Widgets/widgets.css" rel="stylesheet" />
+    <style>
+      html, body, #cesiumContainer {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: black;
+      }
+      #enterAR {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 999;
+        padding: 12px 20px;
+        font-size: 18px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="cesiumContainer"></div>
+    <button id="enterAR">Перейти в AR</button>
+  </body>
+</html>

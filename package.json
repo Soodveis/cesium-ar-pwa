@@ -1,0 +1,17 @@
+{
+  "name": "cesium-ar-vite",
+  "version": "1.0.0",
+  "homepage": "https://ИМЯ-ПОЛЬЗОВАТЕЛЯ.github.io/cesium-ar-vite",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "cesium": "^1.110.0"
+  },
+  "devDependencies": {
+    "@vite-pwa/plugin": "^0.16.4",
+    "vite": "^6.2.5"
+  }
+}
